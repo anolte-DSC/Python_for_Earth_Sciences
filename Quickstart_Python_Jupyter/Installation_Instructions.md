@@ -62,6 +62,3 @@
    ```
 2. **The browser should open with the Jupyter main page.**
    You can navigate to the folder with your notebooks from there and open them.
-
-
-By following these instructions, you should have everything set up properly to begin working with Python and Jupyter Notebooks.
