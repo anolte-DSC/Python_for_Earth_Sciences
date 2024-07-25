@@ -4,4 +4,6 @@
 ### For Linux/Mac
   1. Download Anaconda:
   Go to the Anaconda Distribution page and download the Python 3 installer script for your system.
-`wget https://repo.anaconda.com/archive/Anaconda3-latest-Linux-x86_64.sh`
+```
+wget https://repo.anaconda.com/archive/Anaconda3-latest-Linux-x86_64.sh
+```
