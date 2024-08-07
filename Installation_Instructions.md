@@ -48,7 +48,7 @@
 2. **Create the environment using the `environment.yml` file:**
    Use the `environment.yml` file from the respective course section. Navigate to the directory where the `environment.yml` file is located and run:
    ```
-   conda env create -f environment.yml
+   conda env create -f environment.yml -n your_environment_name
    ```
 3. **Update the environment using the `environment.yml` file:**
    You can also update the packages in your existing environment using the `environment.yml` file from the respective course section. Note that your environment must be activated for this to work.
