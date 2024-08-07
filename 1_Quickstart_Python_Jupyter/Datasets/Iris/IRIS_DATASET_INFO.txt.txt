@@ -1,0 +1,9 @@
+Iris Dataset Information
+
+Source:
+This dataset was obtained from Kaggle.
+Access date: 24.07.2024
+Dataset Link: https://www.kaggle.com/datasets/uciml/iris/data
+
+License
+The Iris dataset is available under the CC0: Public Domain license.
