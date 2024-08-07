@@ -1,0 +1,5 @@
+Iris:
+	Source: Modified from Steve Dorand, Pixabay
+	Access date: 07.08.2024
+	URL: https://pixabay.com/de/photos/iris-sumpfblumen-louisiana-iris-7106264/
+	License: Pixabay License (https://pixabay.com/service/license-summary/)
