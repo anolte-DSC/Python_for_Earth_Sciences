@@ -50,7 +50,7 @@
    ```
    conda env create -f environment.yml
    ```
-3. **Create the environment using the `environment.yml` file:**
+3. **Update the environment using the `environment.yml` file:**
    You can also update the packages in your existing environment using the `environment.yml` file from the respective course section. Note that your environment must be activated for this to work.
    ```
    conda env update --file environment.yml
