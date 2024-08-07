@@ -50,7 +50,7 @@
    ```
    conda env create -f environment.yml -n your_environment_name
    ```
-   You can also add the file location in the path to the environment.yml, for example:
+   You can also add the file location in the path to the `environment.yml`, for example:
    ```
    conda env create -f C:/Users/Username/Documents/A_Quickstart_Python_Jupyter/environment.yml -n your_environment_name
    ```
