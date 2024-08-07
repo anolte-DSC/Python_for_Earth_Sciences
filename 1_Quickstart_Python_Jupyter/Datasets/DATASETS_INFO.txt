@@ -1,0 +1,5 @@
+Iris:
+	Source: Kaggle
+	Access date: 24.07.2024
+	URL: https://www.kaggle.com/datasets/uciml/iris/data
+	License: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
