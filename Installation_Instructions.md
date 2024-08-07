@@ -1,6 +1,17 @@
-# Getting Started with Anaconda for Linux/Mac and Windows
+# Getting Started with Anaconda for Windows and Linux/Mac
 
 ## Installing Anaconda
+   
+### Windows
+1. **Download Anaconda:**
+   Go to the [Anaconda Distribution page](https://www.anaconda.com/products/distribution) and download the Python 3 installer script for Windows.
+2. **Run the installer and follow the on-screen instructions.**
+   If the installation is successful, you will have Anaconda installed.
+3. **Open the Anaconda Prompt from the Start menu and type:**
+   ```
+   conda
+   ```
+   If you see the conda help, then everything is set up properly.
 
 ### For Linux/Mac
 
@@ -28,17 +39,6 @@
    conda
    ```
    If you see the conda help, then everything is set up properly.
-   
-### Windows
-1. **Download Anaconda:**
-   Go to the [Anaconda Distribution page](https://www.anaconda.com/products/distribution) and download the Python 3 installer script for Windows.
-2. **Run the installer and follow the on-screen instructions.**
-   If the installation is successful, you will have Anaconda installed.
-3. **Open the Anaconda Prompt from the Start menu and type:**
-   ```
-   conda
-   ```
-   If you see the conda help, then everything is set up properly.
 
 ## Setting Up the Environment
 1. **Add the conda-forge channel:**
@@ -46,11 +46,16 @@
    conda config --add channels conda-forge
    ```
 2. **Create the environment using the `environment.yml` file:**
-   Download the `environment.yml` file provided to you for the course. Navigate to the directory where the `environment.yml` file is located and run:
+   Use the `environment.yml` file from the respective course section. Navigate to the directory where the `environment.yml` file is located and run:
    ```
    conda env create -f environment.yml
    ```
-3. **Activate the environment:**
+3. **Create the environment using the `environment.yml` file:**
+   You can also update the packages in your existing environment using the `environment.yml` file from the respective course section. Note that your environment must be activated for this to work.
+   ```
+   conda env update --file environment.yml
+   ```
+4. **Activate the environment:**
    ```
    conda activate your_environment_name
    ```
