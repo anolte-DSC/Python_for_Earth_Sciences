@@ -46,7 +46,8 @@
    conda config --add channels conda-forge
    ```
 2. **Create or update the environment using the `environment.yml` file:**
-**Create:**
+
+   2.1 **Create:**
    Creating isolated environments helps maintain clean and manageable development workflows, preventing package conflicts and ensuring reproducibility of your projects.
    Use the `environment.yml` file from the respective course section. Navigate to the directory where the `environment.yml` file is located and run:
    ```
@@ -56,11 +57,17 @@
    ```
    conda env create -f C:/Users/Username/Documents/A_Quickstart_Python_Jupyter/environment.yml -n your_environment_name
    ```
-**Update:**
+   
+   2.1 **Update:**
    You can also update the packages in an existing environment using the `environment.yml` file from the respective course section. Make sure your target environment is activated for this to work.
    ```
    conda env update --file environment.yml
    ```
+   You can also add the file location in the path to the `environment.yml`, for example:
+   ```
+   conda env update --file C:/Users/Username/Documents/A_Quickstart_Python_Jupyter/environment.yml
+   ```
+   
 3. **Activate the environment:**
    ```
    conda activate your_environment_name
