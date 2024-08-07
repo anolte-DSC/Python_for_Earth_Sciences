@@ -50,12 +50,16 @@
    ```
    conda env create -f environment.yml -n your_environment_name
    ```
-3. **Update the environment using the `environment.yml` file:**
+   You can also add the file location in the path to the environment.yml, for example:
+   ```
+   conda env create -f C:/Users/Username/Documents/A_Quickstart_Python_Jupyter/environment.yml -n your_environment_name
+   ```
+4. **Update the environment using the `environment.yml` file:**
    You can also update the packages in your existing environment using the `environment.yml` file from the respective course section. Note that your environment must be activated for this to work.
    ```
    conda env update --file environment.yml
    ```
-4. **Activate the environment:**
+5. **Activate the environment:**
    ```
    conda activate your_environment_name
    ```
